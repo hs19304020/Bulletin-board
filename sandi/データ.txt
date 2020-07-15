@@ -1,0 +1,5 @@
+COL thread_name format A20
+COL thread_description format A20
+
+COL res_user_name format A20
+COL res_text format A20

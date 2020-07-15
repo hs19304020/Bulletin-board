@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background: rgb(235,246,247);
+}
+#header{
+	width: 100%;
+  /* height: 5%; */
+  padding: 0 0;
+  background: rgb(193,228,233);/*ヘッダーの色*/
+  text-align: center;
+  font-family: futura-pt;
+  margin: 0px 0px;
+	font-size:0;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	color: #01579B;
+  text-shadow: 0 0 0.2em rgba(255,255,255,1);
+  /* border-left: 1px solid #5f8f99;
+  border-right: 1px solid #5f8f99; */
+  border-bottom: 1px solid #5f8f99;
+}
+.threadMain {
+  width: 85%;
+  height: 10%;
+  top: 8%;
+  bottom: 30%;
+  left: 0;
+  /* position: absolute; */
+  /* margin: 70px 0 0 140px; */
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.update {
+  width: 35%;
+  height: 10%;
+  top: 8%;
+  bottom: 30%;
+  left: 42%;
+  /* position: absolute; */
+  margin: 70px 0 0 140px;
+  text-align: center;
+}
+/* .title {
+  width: 35%;
+  height: 10%;
+  left: 0;
+  bottom: 10%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+} */
+.uptitle {
+  width: 35%;
+  height: 10%;
+  left: 42%;
+  border: 1px solid #aaa;
+  margin: -75px 0 0 140px;
+  text-align: center;
+  /* position: relative; */
+  }
+  .nav {
+    display: table;
+    width: 100%;
+    background: rgb(161,230,215);/*カテゴリーの色*/
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #5f8f99;
+    /* border-top: 1px solid #5f8f99; */
+  }
+.theme {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.theme + .theme {
+  border-left: 1px solid #5f8f99;
+}
+.theme a {
+    display: block;
+    padding: 15px 0;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer_pagetop {
+  width: 100%;
+  height: 5%;
+  padding: 5px 0px 15px 0px;
+  border-top: 1px solid #5f8f99;
+  background: rgb(193,228,233);/*PAGETOPの色*/
+  text-align: center;
+  /*margin: 9px auto;*/
+  position: absolute;
+  bottom: 0;
+}
+.footer_copyright {
+  width: 100%;
+  font-size: 11px;
+  padding: 1px 0px 1px 0px;
+  text-align: center;
+  cursor: default;
+  background: rgb(102,204,182);/*©の色*/
+  color: #666;
+  position: absolute;
+  bottom: 0;
+}
+a {
+  color: #000000;/*スレッドの文字の色*/
+}
+a:active {
+  color: #000000;/*スレッドクリック時の色*/
+}
+a[href="createthread"] {
+    position: relative;
+    left: 88%;
+    top: 80%;
+    position: fixed;
+}
+a {
+    text-decoration: none;
+  }a {
+    text-decoration: none;
+  }
+.button {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 800px;
+}
+.theme {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+.title {
+    margin: 0 auto;
+    text-align: center;
+}
+.description {
+    margin: 0 auto;
+    text-align: center;
+}
+textarea {
+    resize: none;
+}
+@media only screen and (max-width: 940px) {
+    a[href="createthread"] {
+      position: relative;
+      left: 80%;
+      top: 70%;
+      position: fixed;
+    }
+    .footer_pagetop {
+        width: 100%;
+        height: 7%;
+        padding: 5px 0;
+        border-top: 1px solid #5f8f99;
+        background: rgb(193,228,233);
+        text-align: center;
+        margin: 9px auto;
+        position: fixed;
+        bottom: 0;
+    }
+    .button {
+        position: absolute;
+        right: 20%;
+        bottom: 5%;
+    }
+    .theme {
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #header{
+        width: 100%;
+        /* height: 8%; */
+        padding: 10px 0;
+        border-top: 1px solid #FFF;
+        background: rgb(193,228,233);
+        text-align: center;
+        font-family: futura-pt;
+        margin: 0px 0px;
+        padding-bottom: 0px;
+    }
+
+}

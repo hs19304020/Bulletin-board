@@ -1,0 +1,99 @@
+<web-app>
+
+<servlet>
+	<servlet-name>index</servlet-name>
+	<jsp-file>/index.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>index</servlet-name>
+	<url-pattern>/index</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Top</servlet-name>
+	<jsp-file>/TopPage.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Top</servlet-name>
+	<url-pattern>/top</url-pattern>
+</servlet-mapping>
+
+<servlet>
+		<servlet-name>CreateThread</servlet-name>
+		<jsp-file>/CreateThread.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+		<servlet-name>CreateThread</servlet-name>
+		<url-pattern>/createthread</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>CheckThread</servlet-name>
+	<jsp-file>/CheckThread.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>CheckThread</servlet-name>
+	<url-pattern>/checkthread</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>CompletionThread</servlet-name>
+	<jsp-file>/CompletionThread.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>CompletionThread</servlet-name>
+	<url-pattern>/completionthread</url-pattern>
+</servlet-mapping>
+
+<servlet>
+		<servlet-name>TimeLine</servlet-name>
+		<jsp-file>/TimeLine.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+		<servlet-name>TimeLine</servlet-name>
+		<url-pattern>/timeline</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+		<servlet-name>create</servlet-name>
+		<servlet-class>CreateThreadServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+		<servlet-name>create</servlet-name>
+		<url-pattern>/create</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Thread</servlet-name>
+	<servlet-class>ThreadServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Thread</servlet-name>
+	<url-pattern>/thread</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Res</servlet-name>
+	<servlet-class>ResServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Res</servlet-name>
+	<url-pattern>/res</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Con</servlet-name>
+	<servlet-class>Conversion</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Con</servlet-name>
+	<url-pattern>/con</url-pattern>
+</servlet-mapping>
+
+</web-app>

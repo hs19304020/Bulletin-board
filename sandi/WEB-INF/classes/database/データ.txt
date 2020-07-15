@@ -1,0 +1,17 @@
+SET LINE 120
+COL thread_name format A20
+COL thread_description format A20
+
+ select * from thread_table;
+
+SET LINE 120
+COL res_user_name format A20
+COL res_text format A20
+
+ select * from res_table;
+
+delete from res_table where res_user_name='yahagi';
+
+DROP TABLE thread_table;
+DROP TABLE res_table;
+DROP SEQUENCE thread_id;

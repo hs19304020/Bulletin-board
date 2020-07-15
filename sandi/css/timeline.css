@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: rgb(235,246,247);
+}
+#header{
+	width: 100%;
+  /* height: 5%; */
+  padding: 0 0;
+  background: rgb(193,228,233);/*ヘッダーの色*/
+  text-align: center;
+  font-family: futura-pt;
+  margin: 0px 0px;
+	font-size:0;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	color: #01579B;
+  text-shadow: 0 0 0.2em rgba(255,255,255,1);
+  border-left: 1px solid #5f8f99;
+  border-right: 1px solid #5f8f99;
+  border-bottom: 1px solid #5f8f99;
+}
+.threadMain {
+  width: 85%;
+  height: 10%;
+  top: 8%;
+  bottom: 30%;
+  left: 0;
+  /* position: absolute; */
+  /* margin: 70px 0 0 140px; */
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.update {
+  width: 35%;
+  height: 10%;
+  top: 8%;
+  bottom: 30%;
+  left: 42%;
+  /* position: absolute; */
+  margin: 70px 0 0 140px;
+  text-align: center;
+}
+.title {
+  width: 35%;
+  height: 10%;
+  left: 0;
+  bottom: 10%;
+  border: 1px solid #aaa;
+  /* margin: 30px 0 0 140px; */
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  /* position: relative; */
+}
+.uptitle {
+  width: 35%;
+  height: 10%;
+  left: 42%;
+  border: 1px solid #aaa;
+  margin: -75px 0 0 140px;
+  text-align: center;
+  /* position: relative; */
+  }
+.nav {
+  display: table;
+  width: 100%;
+  background: rgb(161,230,215);/*カテゴリーの色*/
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #5f8f99;
+  /* border-top: 1px solid #5f8f99; */
+}
+.theme {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.theme + .theme {
+  border-left: 1px solid #5f8f99;
+}
+.theme a {
+    display: block;
+    padding: 15px 0;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+.thread {
+    /* border: 1px solid #aaa; */
+    width: 80%;
+    /* height: 30%; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* position: relative; */
+    margin: auto;
+    text-align: center;
+}
+
+.res {
+    /* border: 1px solid #aaa; */
+    width: 50%;
+    /* height: 30%; */
+    /* top: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+.resbutton {
+    /* position: relative; */
+    padding-left: 65%;
+    padding-top: 3%;
+    top: 10%;
+    height: 15%;
+}
+@media only screen and (max-width: 940px) {
+    .footer_pagetop {
+        width: 100%;
+        height: 7%;
+        padding: 5px 0;
+        border-top: 1px solid #EEE;
+        background: #AAA;
+        text-align: center;
+        margin: 9px auto;
+        position: fixed;
+        bottom: 0;
+    }
+    .resbutton {
+        /* position: absolute; */
+        right: 20%;
+        bottom: 5%;
+    }
+    .theme {
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .break:before {
+        content: "\A"; white-space: pre;
+    }
+    #header{
+        width: 100%;
+        /* height: 8%; */
+        padding: 10px 0;
+        border-bottom: 1px solid #5f8f99;
+        background: rgb(193,228,233);
+        text-align: center;
+        font-family: futura-pt;
+        margin: 0px 0px;
+        padding-bottom: 0px;
+    }
+
+}
+textarea {
+  resize: none;
+}
+.number {
+    margin:0 auto;
+    text-align: center;
+}
+.names {
+    margin: 0 auto;
+    text-align: center;
+}
+.text {
+    margin: 0 auto;
+    text-align: center;
+    resize: none;
+}
+.description {
+    margin: 0 auto;
+    text-align: center;
+}
+.threadBox {
+    text-decoration: none;
+    background: #FFF;
+    border: 1px solid #aaa;
+}
+.resbox {
+    border: 1px solid #aaa;
+    background-color: #FFF;
+}
+.matome {
+text-align: center;
+}
+
+
+
+.readmore{
+    position: relative;
+    box-sizing: border-box;
+    /*以下お好み*/
+    /* ボーダーを付ける場合 */
+    /* padding: 10px;
+    border: 1px solid #CCC; */
+  }
+
+  .readmore-content{
+    position: relative;
+    overflow: hidden;
+    /*以下お好み*/
+    /*高さの初期値*/
+    height: 87px;
+    border-left: 0.5px solid #aaa;
+    border-right: 0.5px solid #aaa;
+  }
+  .readmore-content::before {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    /*以下お好み グラデーションの色と高さ 高さはreadmoreのheight以下にすること*/
+    height: 50px;
+    background: -webkit-linear-gradient(top, rgb(255,255,255) 0%, rgb(255,255,255) 50%, rgb(255,255,255) 50%, rgb(255,255,255) 100%);
+    background: linear-gradient(top, rgb(255,255,255) 20%, rgb(255,255,255) 50%, rgb(255,255,255) 50%, rgb(255,255,255) 100%);
+  }
+
+  /* 続きを読むボタン */
+  .readmore-label{
+    display: table;
+    bottom: 5px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: #BBB;
+    border-radius: 10px;
+    color: #FFF;
+    margin-bottom: 5px;
+  }
+  .readmore-label:before{
+    font-family: FontAwesome;
+    content: "続きを読む";
+  }
+
+  .readmore-check{
+    display: none;
+  }
+
+
+
+  /*チェック時にボタンを非表示*/
+  .readmore-check:checked ~ .readmore-label{
+    position: static;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    /* 「続きを読む」を押した後、元に戻す必要がない場合は、上のオプションを消してこの1行だけにする */
+    /* display: none; */
+  }
+  .readmore-check:checked ~ .readmore-label:before{
+    font-family: FontAwesome;
+    height: 90%;
+    content: "閉じる";
+  }
+  /*チェック時に高さを自動に戻す*/
+  .readmore-check:checked ~ .readmore-content{
+    height: auto;
+  }
+  /*チェック時グラデーション等を削除*/
+  .readmore-check:checked ~ .readmore-content::before {
+    display: none;
+  }
+  .newLine {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }

@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: rgb(235,246,247);
+}
+#header{
+	width: 100%;
+  height: 5%;
+  padding: 5px 0;
+  background: rgb(193,228,233);/*ヘッダーの色*/
+  text-align: center;
+  font-family: futura-pt;
+  margin: 0px 0px;
+	font-size:0;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	color: #01579B;
+  text-shadow: 0 0 0.2em rgba(255,255,255,1);
+  border-bottom: 1px solid #5f8f99;
+}
+a {
+  text-decoration: none;
+}
+.footer_pagetop {
+    width: 100%;
+    height: 5%;
+    padding: 5px 0;
+    border-top: 1px solid #EEE;
+    background: #AAA;
+    text-align: center;
+    margin: 9px auto;
+    position: fixed;
+    bottom: 0;
+}
+.footer_copyright {
+    width: 100%;
+    font-size: 11px;
+    padding: 0px 0;
+    text-align: center;
+    cursor: default;
+    background: #EEE;
+    color: #666;
+    position: fixed;
+    bottom: 0;
+}
+h1 {
+    text-align: center;
+    /* position: absolute; */
+    bottom: 35%;
+    width: 100%;
+    font-size:80px;
+}
+.button {
+    display: block;
+    width: 10em;
+    text-align: center;
+    margin: auto;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    background: #e0ba0f;
+    color: #FFF;
+    border-bottom: solid 4px #cf971e;
+    border-radius: 30px;
+    z-index: 1;
+}
+.button:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+@media only screen and (max-width: 940px) {
+    .footer_pagetop {
+        width: 100%;
+        height: 7%;
+        padding: 5px 0;
+        border-top: 1px solid #EEE;
+        background: #AAA;
+        text-align: center;
+        margin: 9px auto;
+        position: fixed;
+        bottom: 0;
+    }
+}
+h1 {
+    padding-top: 8%;
+}
